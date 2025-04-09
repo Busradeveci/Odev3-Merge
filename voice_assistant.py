@@ -20,8 +20,8 @@ try:
         engine.say("By now!")
         engine.runAndWait()
     else:
-        print("Hi")
-        engine.say("Hi")
+        print("Hello")
+        engine.say("Hello")
         engine.runAndWait()
 except sr.UnknownValueError:
     print("Sorry, I couldnt understand what you said.")
